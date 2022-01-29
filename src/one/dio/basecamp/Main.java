@@ -2,47 +2,53 @@ package one.dio.basecamp;
 
 public class Main {
     public static void main(String[] args) {
+        byte b1 = 10;
+        byte b2 = 20;
 
-        int i;
-        // int i;
-        int I;
-        // int 1a;
-        // int _1a;
-        // int $aq;
+        short s1 = 20000;
+        // short s2 = 40000;
 
-        i = 5;
-        I = 10;
-        // _1a = 28;
-        // $aq = 7;
+        // int i1 = -10000000000;
+        int i2 = 28500;
 
-        final int j = 10;
-        // j = 15;
-        int asrn24677md;
-        // int asrn24677 md;
-        // int asrn24677_md;
-        // int asrn24677%md;
+        long l1 = 1000000000000L;
+        long l2 = 2004005000500055000L;
 
-        asrn24677md = 100;
-        // asrn24677_md = 10;
+        // float f1 = 4.5;
+        float f2 = 10.68F;
 
-        int quantidadeProduto = 50;
-        // int QuantidadeProduto;
-        final int NUMERO_TENTATIVAS = 5;
-        // final int numeroTentativas = 5;
-        // int QUANTIDADE_OPCOES = 25;
-        // int qtdProd;
+        double d1 = 85.69;
+        double d2 = 99.84d;
 
-        System.out.println(i);
-        System.out.println(I);
-        // System.out.println(_1a);
-        // System.out.println($aq);
+        char c1 = 'W';
+        // char c2 = 'Tw';
+        char c3 = '\u0057';
 
-        System.out.println(j);
-        System.out.println(asrn24677md);
-        // System.out.println(asrn24677_md);
+        String st1 = "Fulano";
+        String st2 = "Ciclano";
+        String st3 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim sem sit amet tempor molestie. Maecenas a diam at purus imperdiet maximus id et metus.";
 
-        System.out.println(quantidadeProduto);
-        System.out.println(NUMERO_TENTATIVAS);
-        // System.out.println(QUANTIDADE_OPCOES);
+        // String dt1 = "89/02/1981";
+
+        boolean bo1 = true;
+        boolean bo2 = false;
+
+        System.out.println(b1);
+        System.out.println(b2);
+        System.out.println(s1);
+        System.out.println(i2);
+        System.out.println(b1);
+        System.out.println(l1);
+        System.out.println(l2);
+        System.out.println(f2);
+        System.out.println(d1);
+        System.out.println(d2);
+        System.out.println(c1);
+        System.out.println(c3);
+        System.out.println(st1);
+        System.out.println(st2);
+        System.out.println(st3);
+        System.out.println(bo1);
+        System.out.println(bo2);
     }
 }
